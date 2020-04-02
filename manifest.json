@@ -5,7 +5,7 @@
     "version": "0.1",
     "content_scripts": [
         {
-            "js": [ "hello.js" ],
+            "js": [ "disable.js" ],
             "matches": [
                 "https://falcon.crowdstrike.com/*"
             ],
