@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    "name": "Detele CrowdStrike Store button",
+    "description": "This chrome extension is a PoC code that to delete 'CrowdStrike Store' button in Falcon console",
+    "version": "0.1",
+    "content_scripts": [
+        {
+            "js": [ "hello.js" ],
+            "matches": [
+                "https://falcon.crowdstrike.com/*"
+            ],
+            "run_at": "document_end",
+            "all_frame": true
+        }
+    ]
+}
